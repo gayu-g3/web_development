@@ -1,0 +1,98 @@
+.boys
+{
+  font-size: 20px;
+  background-color: aqua;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: chocolate;
+  padding: 20px;
+  margin: 50px 100px 50px 100px;
+  border-radius: 25px;
+}
+.girls
+{
+  font-size: 20px;
+  background-color: hsl(323, 46%, 65%);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: blueviolet;
+  padding: 20px;
+  margin: 50px 100px 50px 100px;
+  border-radius: 25px;
+}
+div
+{
+background-color: rgb(230, 216, 216);
+margin: 30px 100px 30px 100px;
+padding: 10px;
+border-radius: 25px;
+}
+h1{
+  text-align: center;
+  color: crimson;
+}
+caption
+{
+background-color: aquamarine;
+color: blue;
+text-align: center;
+}
+
+
+table{
+  border:2px solid black;
+  width: 100%;
+  padding:100px;
+  height: 100px;
+  border-collapse: collapse;
+ 
+}
+.b1 table tbody tr td
+{
+  border: 2px solid black;
+  border-collapse: collapse;
+
+  color:white;
+  text-align:center;
+}
+.b1 thead tr th{
+  color:red;
+  border:2px solid black;
+
+}
+
+.b1 table tbody tr:nth-child(odd) td:nth-child(odd)
+
+{
+  background-color: darkmagenta
+}
+.b1 table tbody tr:nth-child(odd) td:nth-child(even),
+.b1 table tbody tr:nth-child(even) td:nth-child(even)
+{
+  color:red;
+}
+.b1 table tbody tr:nth-child(even) td:nth-child(odd)
+{
+background-color: green;
+}
+
+.g1 table{
+  background-color: white;
+  
+}
+.g1 table tbody tr td{
+  text-align: center;
+}
+.g1 table tbody tr:nth-child(odd)
+{
+  background-color: blueviolet;
+}
+.g1 table tbody tr:nth-child(even)
+{
+  background-color: goldenrod;
+  color:brown;
+}
+.b1{
+  padding:25px;
+  margin: 50px 100px 50px 100px;
+  border-radius: 25px;
+  table-layout: fixed;
+}

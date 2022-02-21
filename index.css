@@ -1,0 +1,34 @@
+.boys
+{
+  background-color: lightskyblue;
+  font-size: 25px;
+  padding: 30px;
+  border-left: 4px solid blue;
+  font-family: 'Courier New', Courier, monospace;
+  margin:100px;
+
+}
+.girls
+{
+  background-color: rgb(218, 125, 163);
+  font-size:15px;
+  padding:30px;
+  border-left:4px solid red;
+  font-family: Arial, Helvetica, sans-serif;
+  margin:100px;
+}
+
+div{
+  background-color:gray;
+  padding:5%;
+  margin:20px 50px
+}
+li
+{
+  padding:10px;
+}
+h1{
+ color: orangered;
+ text-align: center;
+ border: 2px dashed green;
+}
