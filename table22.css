@@ -1,0 +1,184 @@
+
+div
+{
+    overflow-x: auto;
+}
+table,th,td
+{
+    table-layout: fixed;
+    border:3px solid black;
+    padding:15px;
+    border-spacing: 5px;
+    width:50px;
+    text-align:center;
+    border-spacing: 10px;
+}
+table tbody tr:hover
+{
+    background-color:cornsilk;
+
+}
+
+table thead th:nth-child(7n+1)
+{
+    background-color:violet;
+    color:white;
+}
+table thead th:nth-child(7n+2)
+{
+    background-color: indigo;
+    color:white;
+
+}
+table thead th:nth-child(7n+3)
+{
+    background-color: blue;
+    color:white;
+}
+
+table thead th:nth-child(7n+4)
+{
+    background-color:green;
+    color:white;
+    color:black;
+}
+table thead th:nth-child(7n+5)
+{
+    background-color:yellow;
+    color:black;
+}
+table thead th:nth-child(7n+6)
+{
+    background-color: orange;
+    color:black;
+}
+table thead th:nth-child(7n+7)
+{
+    color:white;
+    background-color:red;
+    color:white;
+}
+
+
+table tbody tr:nth-child(7n+1) td:nth-child(7n+1),
+table tbody tr:nth-child(7n+2) td:nth-child(7n+2),
+table tbody tr:nth-child(7n+3) td:nth-child(7n+3),
+table tbody tr:nth-child(7n+4) td:nth-child(7n+4),
+table tbody tr:nth-child(7n+5) td:nth-child(7n+5),
+table tbody tr:nth-child(7n+6) td:nth-child(7n+6),
+table tbody tr:nth-child(7n+7) td:nth-child(7n+7)
+
+{
+    background-color: violet;
+    color:white;
+
+}
+table tbody tr:nth-child(7n+1) td:nth-child(7n+2),
+table tbody tr:nth-child(7n+2) td:nth-child(7n+1),
+
+table tbody tr:nth-child(7n+2) td:nth-child(7n+3),
+table tbody tr:nth-child(7n+3) td:nth-child(7n+2),
+
+table tbody tr:nth-child(7n+3) td:nth-child(7n+4),
+table tbody tr:nth-child(7n+4) td:nth-child(7n+3)
+
+table tbody tr:nth-child(7n+4) td:nth-child(7n+4),
+
+table tbody tr:nth-child(7n+4) td:nth-child(7n+5),
+table tbody tr:nth-child(7n+5) td:nth-child(7n+4),
+
+table tbody tr:nth-child(7n+5) td:nth-child(7n+6),
+table tbody tr:nth-child(7n+6) td:nth-child(7n+5),
+
+table tbody tr:nth-child(7n+6) td:nth-child(7n+7),
+table tbody tr:nth-child(7n+7) td:nth-child(7n+6),
+
+table tbody tr:nth-child(7n+4) td:nth-child(7n+3)
+
+{
+    background-color: indigo;
+    color:white;
+}
+
+table tbody tr:nth-child(7n+1) td:nth-child(7n+3),
+table tbody tr:nth-child(7n+3) td:nth-child(7n+1),
+
+table tbody tr:nth-child(7n+2) td:nth-child(7n+4),
+table tbody tr:nth-child(7n+4) td:nth-child(7n+2),
+
+table tbody tr:nth-child(7n+3) td:nth-child(7n+5),
+table tbody tr:nth-child(7n+5) td:nth-child(7n+3),
+
+table tbody tr:nth-child(7n+4) td:nth-child(7n+6),
+table tbody tr:nth-child(7n+6) td:nth-child(7n+4),
+
+table tbody tr:nth-child(7n+5) td:nth-child(7n+7),
+table tbody tr:nth-child(7n+7) td:nth-child(7n+5)
+
+
+
+
+{
+    background-color:blue;
+    color:white;
+}
+
+table tbody tr:nth-child(7n+1) td:nth-child(7n+4),
+table tbody tr:nth-child(7n+4) td:nth-child(7n+1),
+
+table tbody tr:nth-child(7n+2) td:nth-child(7n+5),
+table tbody tr:nth-child(7n+5) td:nth-child(7n+2),
+
+table tbody tr:nth-child(7n+3) td:nth-child(7n+6),
+table tbody tr:nth-child(7n+6) td:nth-child(7n+3),
+
+table tbody tr:nth-child(7n+4) td:nth-child(7n+7),
+table tbody tr:nth-child(7n+7) td:nth-child(7n+4),
+
+table tbody tr:nth-child(7n+5) td:nth-child(7n+2),
+
+table tbody tr:nth-child(7n+6) td:nth-child(7n+3),
+
+table tbody tr:nth-child(7n+7) td:nth-child(7n+4)
+
+
+
+
+
+{
+    background-color: green;
+    color:white;
+}
+
+table tbody tr:nth-child(7n+1) td:nth-child(7n+5),
+table tbody tr:nth-child(7n+5) td:nth-child(7n+1),
+
+table tbody tr:nth-child(7n+2) td:nth-child(7n+6),
+table tbody tr:nth-child(7n+6) td:nth-child(7n+2),
+
+table tbody tr:nth-child(7n+3) td:nth-child(7n+7),
+table tbody tr:nth-child(7n+7) td:nth-child(7n+3)
+
+
+{
+    background-color: yellow;
+    color:black;
+}
+
+table tbody tr:nth-child(7n+1) td:nth-child(7n+6),
+table tbody tr:nth-child(7n+6) td:nth-child(7n+1),
+
+table tbody tr:nth-child(7n+2) td:nth-child(7n+7),
+table tbody tr:nth-child(7n+7) td:nth-child(7n+2)
+{
+    background-color: orange;
+    color:black;
+}
+
+table tbody tr:nth-child(7n+1) td:nth-child(7n+7),
+table tbody tr:nth-child(7n+7) td:nth-child(7n+1)
+
+{
+    background-color: red;
+    color:white;
+}

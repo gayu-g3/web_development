@@ -96,3 +96,34 @@ background-color: green;
   border-radius: 25px;
   table-layout: fixed;
 }
+a{
+  border:5px solid black;
+  color:blue;
+  padding:20px;
+  margin:20px;
+  text-align: centre;
+  background-color: yellowgreen;
+  height:50px;
+  justify-content:center;
+  align-items: center;
+  
+  font-size: 50px;
+
+
+}
+a:hover
+{
+  background-color: coral;
+}
+
+#redirect
+{
+  margin:100px;
+  display:inline;
+
+
+  background-color: brown;
+  padding:50px;
+  text-align: center;
+
+}

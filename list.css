@@ -1,0 +1,70 @@
+div
+{
+
+    background-color: rgb(231, 218, 218);
+    padding:40px;
+    margin:100px;
+    border-radius: 30px;background-image: linear-gradient();
+
+
+}
+.boys
+{
+    
+    font-size: 23px;
+    background-color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: chocolate;
+    padding: 20px;
+    margin: 50px 100px 50px 100px;
+    border-radius: 25px;
+}
+.girls
+{
+    font-size: 23px;
+    background-color: lightpink;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    padding: 20px;
+    margin: 50px 100px 50px 100px;
+    border-radius: 25px;
+}
+
+table th,td
+{
+    border:1px solid black;
+    font-size:20px;
+    color:blue;
+    padding:20px;
+
+}
+/*.plus table tbody tr:nth-child(n+n td:nth-child(3),
+.plus table tbody tr:nth-child(3) td:nth-child(n+1)
+{
+    background-color: blue;
+    color:black;
+}*/
+
+table tbody tr:nth-child(1) td:nth-child(1),
+table tbody tr:nth-child(1) td:nth-child(5),
+
+
+table tbody tr:nth-child(2) td:nth-child(2),
+table tbody tr:nth-child(2) td:nth-child(4),
+
+table tbody tr:nth-child(3) td:nth-child(3),
+
+
+table tbody tr:nth-child(4) td:nth-child(4),
+table tbody tr:nth-child(4) td:nth-child(2),
+
+table tbody tr:nth-child(5) td:nth-child(1),
+table tbody tr:nth-child(5) td:nth-child(5)
+
+
+
+
+
+{
+    background-color: brown;
+}
